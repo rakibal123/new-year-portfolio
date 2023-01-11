@@ -1,110 +1,28 @@
-/*Header section of the website*/
-.header{
-    margin: 0;
-    width: 100%;
-    height: 100vh;
-    background-image: url('./images/banner/banner1.png');
-    margin-bottom: 120px;
+.contaier{
+   display: flex;
+   background-color: aqua;
+   justify-content: center;
+   gap: 5%;
+   text-align: center;
+   padding: 2px;
+   margin: 0% 10%;
 }
-/*description of header*/
-.header-description{
-    position: absolute;
-    width: 30%;
-    top: 25%;
-    left: 56%;
-} 
-/*title of heading*/
-.head-title{
-
-    font-size: 65px;
-    text-align: right;
-    font-weight: 700;
-    color:  #151414;
-    line-height: 76px;
-    margin-bottom: 24px;
+.plan{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
 }
-/*paragraph of head*/
-.head-paragraph{
-
-    font-style: normal;
+.alo p{
     font-size: 16px;
+    color: #e11414;
     font-weight: 400;
-    text-align: right;
-    margin-bottom: 44px;
+    margin: 0px;
+    padding: 0px;
 }
-/*Button design*/
-.btn{
-
-     position: absolute;
-     left: 330px;
-     }
-button{
-    background-color: #F15B22;
-    border: none;
-    font-size: 16px;
-    color:#ffffff ;
-    text-decoration: none;
-    padding: 10px 10px;
-    margin: 4px 2px;
-    line-height: 23px;
-    border-radius: 5px;
-    
-}  
-/* image in second-part*/   
-.img{
-    width: 560px;
-    height: 723px;
-    margin-left: 50px;
-    border: 5px solid red;
-} 
-.person-image{
-    float: left;
-    margin-left: 10%;
-    margin-right: 4%;
-}  
-/*main-section from here*/
-.main-section{
-    width: 320px;
-    position: absolute;
-    display: inline;
-    top: 140%;
-    left:60%;
-    align-items: center;
-}/*green tick*/
-span{
-     color: #16D887;
-}
-/*head of main text*/
-.my-failure{
+.alo h2{
+    font-weight: 800;
     font-size: 40px;
-    font-weight: 700;
-    font-style: normal;
-    color:  #151414;
-    font-weight: 700;
-    margin: bottom 5px;
-}
-.para{
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    color: #444343;
-}
-/* last part of the website*/
-.footer{
-    background-color: black;
-    width: 100%;
-    height: 577px;
-    display: flex;
-}
-.footer-one{
-    color: white;
-    position: absolute;
-    width: 485px;
-     height: 317px;
-    left: 230px;
-    top: 2000.26px;
-
-}
-.footer-two{
-    color:white;
+    padding: 5px;
+    margin: 0px;
+    padding: 0px;
 }
